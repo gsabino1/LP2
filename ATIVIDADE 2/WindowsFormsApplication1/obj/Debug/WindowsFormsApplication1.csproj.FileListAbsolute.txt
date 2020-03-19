@@ -1,0 +1,19 @@
+c:\users\gabriels\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+c:\users\gabriels\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\users\gabriels\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\users\gabriels\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+c:\users\gabriels\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+c:\users\gabriels\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\users\gabriels\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+c:\users\gabriels\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+c:\users\gabriels\documents\visual studio 2013\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\IMC\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\IMC\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\IMC\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\IMC\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\IMC\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\IMC\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\IMC\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\IMC\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\IMC\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\IMC\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
