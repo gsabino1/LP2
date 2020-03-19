@@ -58,7 +58,7 @@
             this.gpbSexo.Controls.Add(this.rdbMasc);
             this.gpbSexo.Location = new System.Drawing.Point(15, 62);
             this.gpbSexo.Name = "gpbSexo";
-            this.gpbSexo.Size = new System.Drawing.Size(90, 55);
+            this.gpbSexo.Size = new System.Drawing.Size(91, 55);
             this.gpbSexo.TabIndex = 2;
             this.gpbSexo.TabStop = false;
             this.gpbSexo.Text = "Sexo";
@@ -90,7 +90,7 @@
             this.btnCalc.Location = new System.Drawing.Point(111, 67);
             this.btnCalc.Margin = new System.Windows.Forms.Padding(0);
             this.btnCalc.Name = "btnCalc";
-            this.btnCalc.Size = new System.Drawing.Size(50, 50);
+            this.btnCalc.Size = new System.Drawing.Size(51, 50);
             this.btnCalc.TabIndex = 1;
             this.btnCalc.Text = "Calcula";
             this.btnCalc.UseVisualStyleBackColor = true;
@@ -107,10 +107,10 @@
             // 
             // txtSitu
             // 
-            this.txtSitu.Location = new System.Drawing.Point(15, 192);
+            this.txtSitu.Location = new System.Drawing.Point(12, 192);
             this.txtSitu.Name = "txtSitu";
             this.txtSitu.ReadOnly = true;
-            this.txtSitu.Size = new System.Drawing.Size(146, 20);
+            this.txtSitu.Size = new System.Drawing.Size(165, 20);
             this.txtSitu.TabIndex = 8;
             // 
             // lblSitu
@@ -124,11 +124,11 @@
             // 
             // txtPesoIdeal
             // 
-            this.txtPesoIdeal.Location = new System.Drawing.Point(72, 146);
+            this.txtPesoIdeal.Location = new System.Drawing.Point(92, 146);
             this.txtPesoIdeal.Name = "txtPesoIdeal";
             this.txtPesoIdeal.ReadOnly = true;
             this.txtPesoIdeal.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtPesoIdeal.Size = new System.Drawing.Size(89, 20);
+            this.txtPesoIdeal.Size = new System.Drawing.Size(70, 20);
             this.txtPesoIdeal.TabIndex = 6;
             // 
             // lblPesoIdeal
@@ -143,20 +143,20 @@
             // txtAltura
             // 
             this.txtAltura.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.IncludePromptAndLiterals;
-            this.txtAltura.Location = new System.Drawing.Point(72, 10);
+            this.txtAltura.Location = new System.Drawing.Point(92, 10);
             this.txtAltura.Mask = "0,00";
             this.txtAltura.Name = "txtAltura";
-            this.txtAltura.Size = new System.Drawing.Size(89, 20);
+            this.txtAltura.Size = new System.Drawing.Size(70, 20);
             this.txtAltura.TabIndex = 9;
             this.txtAltura.TextMaskFormat = System.Windows.Forms.MaskFormat.IncludePromptAndLiterals;
             // 
             // txtPeso
             // 
             this.txtPeso.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.IncludePromptAndLiterals;
-            this.txtPeso.Location = new System.Drawing.Point(72, 36);
+            this.txtPeso.Location = new System.Drawing.Point(92, 36);
             this.txtPeso.Mask = "000,00";
             this.txtPeso.Name = "txtPeso";
-            this.txtPeso.Size = new System.Drawing.Size(89, 20);
+            this.txtPeso.Size = new System.Drawing.Size(70, 20);
             this.txtPeso.TabIndex = 10;
             this.txtPeso.TextMaskFormat = System.Windows.Forms.MaskFormat.IncludePromptAndLiterals;
             // 
@@ -164,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(179, 227);
+            this.ClientSize = new System.Drawing.Size(189, 227);
             this.Controls.Add(this.txtPeso);
             this.Controls.Add(this.txtAltura);
             this.Controls.Add(this.txtSitu);

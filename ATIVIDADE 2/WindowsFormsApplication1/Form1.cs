@@ -38,11 +38,6 @@ namespace WindowsFormsApplication1
                 peso = txtPeso.Text.Replace('.', ',');
                 dAltura = Convert.ToDouble(altura);
                 dPeso = Convert.ToDouble(peso);
-                            
-                MessageBox.Show(altura);
-                MessageBox.Show(peso);
-                MessageBox.Show(dAltura.ToString());
-                MessageBox.Show(dPeso.ToString());
 
                 if (rdbMasc.Checked==true)
                 {
