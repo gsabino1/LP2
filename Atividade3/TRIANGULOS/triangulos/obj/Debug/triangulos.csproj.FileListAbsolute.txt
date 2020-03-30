@@ -1,0 +1,10 @@
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\TRIANGULOS\triangulos\bin\Debug\triangulos.exe.config
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\TRIANGULOS\triangulos\bin\Debug\triangulos.exe
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\TRIANGULOS\triangulos\bin\Debug\triangulos.pdb
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\TRIANGULOS\triangulos\obj\Debug\triangulos.csprojAssemblyReference.cache
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\TRIANGULOS\triangulos\obj\Debug\triangulos.Form1.resources
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\TRIANGULOS\triangulos\obj\Debug\triangulos.Properties.Resources.resources
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\TRIANGULOS\triangulos\obj\Debug\triangulos.csproj.GenerateResource.cache
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\TRIANGULOS\triangulos\obj\Debug\triangulos.csproj.CoreCompileInputs.cache
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\TRIANGULOS\triangulos\obj\Debug\triangulos.exe
+C:\OneDrive-FATEC\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\TRIANGULOS\triangulos\obj\Debug\triangulos.pdb
