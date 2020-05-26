@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u0o0sfwNsbDf2LgE/fo5dT/PVailRcisjGeDdiH9kK/mJkJFHHmylhguMhm3Ps5eZps4NHnxID7XhEQKhHoWjg==",
+  "success": true,
+  "projectFilePath": "D:\\FATEC\\LP2\\GIT\\LP2\\ATIVIDADE6\\EXERCICIO6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GSabino\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
