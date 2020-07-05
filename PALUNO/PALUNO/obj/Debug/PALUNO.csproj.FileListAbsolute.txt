@@ -1,0 +1,12 @@
+C:\Users\GSabino\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\PALUNO\PALUNO\PALUNO\bin\Debug\PALUNO.exe.config
+C:\Users\GSabino\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\PALUNO\PALUNO\PALUNO\bin\Debug\PALUNO.exe
+C:\Users\GSabino\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\PALUNO\PALUNO\PALUNO\bin\Debug\PALUNO.pdb
+C:\Users\GSabino\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\PALUNO\PALUNO\PALUNO\obj\Debug\PALUNO.csprojAssemblyReference.cache
+C:\Users\GSabino\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\PALUNO\PALUNO\PALUNO\obj\Debug\PALUNO.frmPrincipal.resources
+C:\Users\GSabino\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\PALUNO\PALUNO\PALUNO\obj\Debug\PALUNO.Properties.Resources.resources
+C:\Users\GSabino\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\PALUNO\PALUNO\PALUNO\obj\Debug\PALUNO.csproj.GenerateResource.cache
+C:\Users\GSabino\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\PALUNO\PALUNO\PALUNO\obj\Debug\PALUNO.csproj.CoreCompileInputs.cache
+C:\Users\GSabino\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\PALUNO\PALUNO\PALUNO\obj\Debug\PALUNO.exe
+C:\Users\GSabino\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\PALUNO\PALUNO\PALUNO\obj\Debug\PALUNO.pdb
+C:\Users\GSabino\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\PALUNO\PALUNO\PALUNO\obj\Debug\PALUNO.frmAluno.resources
+C:\Users\GSabino\OneDrive - Fatec Centro Paula Souza\FATEC\Materias\LP2\PROJETOS\PALUNO\PALUNO\PALUNO\obj\Debug\PALUNO.frmCidade.resources
