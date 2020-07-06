@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCidade));
             this.btnSair = new System.Windows.Forms.ToolStripButton();
             this.btnAlterar = new System.Windows.Forms.ToolStripButton();
             this.btnSalvar = new System.Windows.Forms.ToolStripButton();
@@ -66,7 +67,7 @@
             // btnSair
             // 
             this.btnSair.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnSair.Image = global::PALUNO.Properties.Resources.exit;
+            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
             this.btnSair.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(28, 28);
@@ -76,7 +77,7 @@
             // btnAlterar
             // 
             this.btnAlterar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnAlterar.Image = global::PALUNO.Properties.Resources.alter;
+            this.btnAlterar.Image = ((System.Drawing.Image)(resources.GetObject("btnAlterar.Image")));
             this.btnAlterar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(28, 28);
@@ -87,7 +88,7 @@
             // 
             this.btnSalvar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.btnSalvar.Enabled = false;
-            this.btnSalvar.Image = global::PALUNO.Properties.Resources.save;
+            this.btnSalvar.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvar.Image")));
             this.btnSalvar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(28, 28);
@@ -97,7 +98,7 @@
             // btnExcluir
             // 
             this.btnExcluir.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnExcluir.Image = global::PALUNO.Properties.Resources.delete;
+            this.btnExcluir.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluir.Image")));
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.RightToLeftAutoMirrorImage = true;
             this.btnExcluir.Size = new System.Drawing.Size(28, 28);
@@ -107,7 +108,7 @@
             // btnNovoRegistro
             // 
             this.btnNovoRegistro.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnNovoRegistro.Image = global::PALUNO.Properties.Resources._new;
+            this.btnNovoRegistro.Image = ((System.Drawing.Image)(resources.GetObject("btnNovoRegistro.Image")));
             this.btnNovoRegistro.Name = "btnNovoRegistro";
             this.btnNovoRegistro.RightToLeftAutoMirrorImage = true;
             this.btnNovoRegistro.Size = new System.Drawing.Size(28, 28);
@@ -117,12 +118,12 @@
             // BindingNavigatorSeparator2
             // 
             this.BindingNavigatorSeparator2.Name = "BindingNavigatorSeparator2";
-            this.BindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.BindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 31);
             // 
             // BindingNavigatorMoveLastItem
             // 
             this.BindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BindingNavigatorMoveLastItem.Image = global::PALUNO.Properties.Resources.last;
+            this.BindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("BindingNavigatorMoveLastItem.Image")));
             this.BindingNavigatorMoveLastItem.Name = "BindingNavigatorMoveLastItem";
             this.BindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
             this.BindingNavigatorMoveLastItem.Size = new System.Drawing.Size(28, 28);
@@ -131,7 +132,7 @@
             // BindingNavigatorMoveNextItem
             // 
             this.BindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BindingNavigatorMoveNextItem.Image = global::PALUNO.Properties.Resources.next;
+            this.BindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("BindingNavigatorMoveNextItem.Image")));
             this.BindingNavigatorMoveNextItem.Name = "BindingNavigatorMoveNextItem";
             this.BindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
             this.BindingNavigatorMoveNextItem.Size = new System.Drawing.Size(28, 28);
@@ -140,7 +141,7 @@
             // BindingNavigatorSeparator1
             // 
             this.BindingNavigatorSeparator1.Name = "BindingNavigatorSeparator1";
-            this.BindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.BindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 31);
             // 
             // BindingNavigatorPositionItem
             // 
@@ -155,12 +156,12 @@
             // BindingNavigatorSeparator
             // 
             this.BindingNavigatorSeparator.Name = "BindingNavigatorSeparator";
-            this.BindingNavigatorSeparator.Size = new System.Drawing.Size(6, 25);
+            this.BindingNavigatorSeparator.Size = new System.Drawing.Size(6, 31);
             // 
             // BindingNavigatorMovePreviousItem
             // 
             this.BindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BindingNavigatorMovePreviousItem.Image = global::PALUNO.Properties.Resources.previus;
+            this.BindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("BindingNavigatorMovePreviousItem.Image")));
             this.BindingNavigatorMovePreviousItem.Name = "BindingNavigatorMovePreviousItem";
             this.BindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
             this.BindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(28, 28);
@@ -169,7 +170,7 @@
             // BindingNavigatorMoveFirstItem
             // 
             this.BindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BindingNavigatorMoveFirstItem.Image = global::PALUNO.Properties.Resources.first;
+            this.BindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("BindingNavigatorMoveFirstItem.Image")));
             this.BindingNavigatorMoveFirstItem.Name = "BindingNavigatorMoveFirstItem";
             this.BindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
             this.BindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(28, 28);
@@ -178,7 +179,7 @@
             // BindingNavigatorCountItem
             // 
             this.BindingNavigatorCountItem.Name = "BindingNavigatorCountItem";
-            this.BindingNavigatorCountItem.Size = new System.Drawing.Size(37, 22);
+            this.BindingNavigatorCountItem.Size = new System.Drawing.Size(37, 28);
             this.BindingNavigatorCountItem.Text = "de {0}";
             this.BindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -211,7 +212,7 @@
             this.bnvCidade.MovePreviousItem = this.BindingNavigatorMovePreviousItem;
             this.bnvCidade.Name = "bnvCidade";
             this.bnvCidade.PositionItem = this.BindingNavigatorPositionItem;
-            this.bnvCidade.Size = new System.Drawing.Size(399, 31);
+            this.bnvCidade.Size = new System.Drawing.Size(415, 31);
             this.bnvCidade.TabIndex = 2;
             this.bnvCidade.Text = "bnvCidade";
             // 
@@ -219,7 +220,7 @@
             // 
             this.btnCancelar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.btnCancelar.Enabled = false;
-            this.btnCancelar.Image = global::PALUNO.Properties.Resources.cancel;
+            this.btnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Image")));
             this.btnCancelar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(28, 28);
@@ -365,7 +366,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(399, 239);
+            this.ClientSize = new System.Drawing.Size(415, 239);
             this.Controls.Add(this.bnvCidade);
             this.Controls.Add(this.TabControl1);
             this.Margin = new System.Windows.Forms.Padding(2);
