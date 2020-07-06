@@ -34,6 +34,11 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dgvAluno = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.txtNomeAluno = new System.Windows.Forms.TextBox();
+            this.txtRa = new System.Windows.Forms.TextBox();
+            this.lblCidade = new System.Windows.Forms.Label();
+            this.lblNomeAluno = new System.Windows.Forms.Label();
+            this.lblRa = new System.Windows.Forms.Label();
             this.cbxCidade = new System.Windows.Forms.ComboBox();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
@@ -41,11 +46,6 @@
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.bnvAluno = new System.Windows.Forms.BindingNavigator(this.components);
-            this.txtNomeAluno = new System.Windows.Forms.TextBox();
-            this.txtRa = new System.Windows.Forms.TextBox();
-            this.lblCidade = new System.Windows.Forms.Label();
-            this.lblNomeAluno = new System.Windows.Forms.Label();
-            this.lblRa = new System.Windows.Forms.Label();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
@@ -106,10 +106,53 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(370, 174);
+            this.tabPage2.Size = new System.Drawing.Size(340, 195);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Detalhes";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // txtNomeAluno
+            // 
+            this.txtNomeAluno.Enabled = false;
+            this.txtNomeAluno.Location = new System.Drawing.Point(108, 43);
+            this.txtNomeAluno.Name = "txtNomeAluno";
+            this.txtNomeAluno.Size = new System.Drawing.Size(121, 20);
+            this.txtNomeAluno.TabIndex = 15;
+            // 
+            // txtRa
+            // 
+            this.txtRa.Enabled = false;
+            this.txtRa.Location = new System.Drawing.Point(108, 9);
+            this.txtRa.Name = "txtRa";
+            this.txtRa.Size = new System.Drawing.Size(121, 20);
+            this.txtRa.TabIndex = 13;
+            // 
+            // lblCidade
+            // 
+            this.lblCidade.AutoSize = true;
+            this.lblCidade.Location = new System.Drawing.Point(2, 78);
+            this.lblCidade.Name = "lblCidade";
+            this.lblCidade.Size = new System.Drawing.Size(40, 13);
+            this.lblCidade.TabIndex = 16;
+            this.lblCidade.Text = "Cidade";
+            // 
+            // lblNomeAluno
+            // 
+            this.lblNomeAluno.AutoSize = true;
+            this.lblNomeAluno.Location = new System.Drawing.Point(2, 45);
+            this.lblNomeAluno.Name = "lblNomeAluno";
+            this.lblNomeAluno.Size = new System.Drawing.Size(79, 13);
+            this.lblNomeAluno.TabIndex = 14;
+            this.lblNomeAluno.Text = "Nome do aluno";
+            // 
+            // lblRa
+            // 
+            this.lblRa.AutoSize = true;
+            this.lblRa.Location = new System.Drawing.Point(2, 11);
+            this.lblRa.Name = "lblRa";
+            this.lblRa.Size = new System.Drawing.Size(22, 13);
+            this.lblRa.TabIndex = 12;
+            this.lblRa.Text = "RA";
             // 
             // cbxCidade
             // 
@@ -186,49 +229,6 @@
             this.bnvAluno.TabIndex = 2;
             this.bnvAluno.Text = "bindingNavigator1";
             // 
-            // txtNomeAluno
-            // 
-            this.txtNomeAluno.Enabled = false;
-            this.txtNomeAluno.Location = new System.Drawing.Point(108, 43);
-            this.txtNomeAluno.Name = "txtNomeAluno";
-            this.txtNomeAluno.Size = new System.Drawing.Size(121, 20);
-            this.txtNomeAluno.TabIndex = 15;
-            // 
-            // txtRa
-            // 
-            this.txtRa.Enabled = false;
-            this.txtRa.Location = new System.Drawing.Point(108, 9);
-            this.txtRa.Name = "txtRa";
-            this.txtRa.Size = new System.Drawing.Size(121, 20);
-            this.txtRa.TabIndex = 13;
-            // 
-            // lblCidade
-            // 
-            this.lblCidade.AutoSize = true;
-            this.lblCidade.Location = new System.Drawing.Point(2, 78);
-            this.lblCidade.Name = "lblCidade";
-            this.lblCidade.Size = new System.Drawing.Size(40, 13);
-            this.lblCidade.TabIndex = 16;
-            this.lblCidade.Text = "Cidade";
-            // 
-            // lblNomeAluno
-            // 
-            this.lblNomeAluno.AutoSize = true;
-            this.lblNomeAluno.Location = new System.Drawing.Point(2, 45);
-            this.lblNomeAluno.Name = "lblNomeAluno";
-            this.lblNomeAluno.Size = new System.Drawing.Size(79, 13);
-            this.lblNomeAluno.TabIndex = 14;
-            this.lblNomeAluno.Text = "Nome do aluno";
-            // 
-            // lblRa
-            // 
-            this.lblRa.AutoSize = true;
-            this.lblRa.Location = new System.Drawing.Point(2, 11);
-            this.lblRa.Name = "lblRa";
-            this.lblRa.Size = new System.Drawing.Size(22, 13);
-            this.lblRa.TabIndex = 12;
-            this.lblRa.Text = "RA";
-            // 
             // bindingNavigatorMoveFirstItem
             // 
             this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -250,7 +250,7 @@
             // bindingNavigatorMoveNextItem
             // 
             this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = global::PALUNO.Properties.Resources.next;
+            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
@@ -259,7 +259,7 @@
             // bindingNavigatorMoveLastItem
             // 
             this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = global::PALUNO.Properties.Resources.last;
+            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
@@ -268,7 +268,7 @@
             // btnNovoRegistro
             // 
             this.btnNovoRegistro.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnNovoRegistro.Image = global::PALUNO.Properties.Resources._new;
+            this.btnNovoRegistro.Image = ((System.Drawing.Image)(resources.GetObject("btnNovoRegistro.Image")));
             this.btnNovoRegistro.Name = "btnNovoRegistro";
             this.btnNovoRegistro.RightToLeftAutoMirrorImage = true;
             this.btnNovoRegistro.Size = new System.Drawing.Size(23, 22);
@@ -279,7 +279,7 @@
             // btnSalvar
             // 
             this.btnSalvar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnSalvar.Image = global::PALUNO.Properties.Resources.save;
+            this.btnSalvar.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvar.Image")));
             this.btnSalvar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(23, 22);
@@ -290,7 +290,7 @@
             // btnAlterar
             // 
             this.btnAlterar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnAlterar.Image = global::PALUNO.Properties.Resources.alter;
+            this.btnAlterar.Image = ((System.Drawing.Image)(resources.GetObject("btnAlterar.Image")));
             this.btnAlterar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(23, 22);
@@ -301,7 +301,7 @@
             // btnExcluir
             // 
             this.btnExcluir.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnExcluir.Image = global::PALUNO.Properties.Resources.delete1;
+            this.btnExcluir.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluir.Image")));
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.RightToLeftAutoMirrorImage = true;
             this.btnExcluir.Size = new System.Drawing.Size(23, 22);
@@ -311,7 +311,7 @@
             // btnCancelar
             // 
             this.btnCancelar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnCancelar.Image = global::PALUNO.Properties.Resources.cancel;
+            this.btnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Image")));
             this.btnCancelar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(23, 22);
@@ -325,7 +325,7 @@
             this.btnSair.Image = global::PALUNO.Properties.Resources.exit;
             this.btnSair.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(23, 22);
+            this.btnSair.Size = new System.Drawing.Size(23, 20);
             this.btnSair.Text = "Sair";
             this.btnSair.ToolTipText = "Sair";
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
