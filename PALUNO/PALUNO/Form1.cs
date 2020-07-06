@@ -54,5 +54,11 @@ namespace PALUNO
         {
             this.Close();
         }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            sobre sobre = new sobre();
+            sobre.Show();
+        }
     }
 }

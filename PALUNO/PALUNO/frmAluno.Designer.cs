@@ -325,7 +325,7 @@
             this.btnSair.Image = global::PALUNO.Properties.Resources.exit;
             this.btnSair.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(23, 20);
+            this.btnSair.Size = new System.Drawing.Size(23, 22);
             this.btnSair.Text = "Sair";
             this.btnSair.ToolTipText = "Sair";
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
@@ -339,7 +339,7 @@
             this.Controls.Add(this.TabControl1);
             this.Controls.Add(this.bnvAluno);
             this.Name = "frmAluno";
-            this.Text = "Transação Aluno";
+            this.Text = "Alunos";
             this.Load += new System.EventHandler(this.frmAluno_Load);
             this.TabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
